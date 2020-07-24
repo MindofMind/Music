@@ -1,3 +1,7 @@
+#Its time to compose our own music now. 
+# We will follow the steps mentioned under the inference phase for the predictions.
+
+
 import random
 ind = np.random.randint(0,len(x_val)-1)
 
