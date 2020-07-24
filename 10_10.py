@@ -1,3 +1,11 @@
+#Now, we will convert the integers back into the notes.
+
+x_int_to_note = dict((number, note_) for number, note_ in enumerate(unique_x)) 
+predicted_notes = [x_int_to_note[i] for i in predictions]
+
+#The final step is to convert back the predictions into a MIDI file. Let’s define the function to accomplish the task.
+
+
 def convert_to_midi(prediction_output):
    
     offset = 0
@@ -33,3 +41,9 @@ def convert_to_midi(prediction_output):
         offset += 1
     midi_stream = stream.Stream(output_notes)
     midi_stream.write('midi', fp='music.mid')
+      
+      
+ #Converting the predictions into a musical file:
+
+convert_to_midi(predicted_notes)
+
