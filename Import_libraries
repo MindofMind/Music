@@ -1,0 +1,9 @@
+#Import libraries:
+
+#Music 21 is a Python library developed by MIT for understanding music data. 
+#MIDI is a standard format for storing music files. MIDI stands for Musical Instrument Digital Interface. 
+#MIDI files contain the instructions rather than the actual audio. Hence, it occupies very little memory. 
+#That’s why it is usually preferred while transferring files.
+#library for understanding music
+
+from music21 import *
