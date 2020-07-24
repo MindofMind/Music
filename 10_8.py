@@ -1,3 +1,8 @@
+#I have simplified the architecture of the WaveNet without adding residual and skip connections since the role of these layers is to improve the faster convergence 
+#(and WaveNet takes raw audio wave as input). 
+#But in our case, the input would be a set of nodes and chords since we are generating music:
+
+
 from keras.layers import *
 from keras.models import *
 from keras.callbacks import *
