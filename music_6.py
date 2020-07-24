@@ -1,3 +1,9 @@
+#Preparing Data:
+
+#Preparing the input and output sequences as mentioned in the article:
+
+
+
 no_of_timesteps = 32
 x = []
 y = []
