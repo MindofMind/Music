@@ -1,3 +1,10 @@
+#Output: 167
+
+#As you can see here, no. of frequently occurring notes is around 170.  
+#Now, let us prepare new musical files which contain only the top frequent notes
+
+
+
 new_music=[]
 
 for notes in notes_array:
